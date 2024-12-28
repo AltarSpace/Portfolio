@@ -1,0 +1,16 @@
+.navBar {
+    text-align: center;
+    background-color: lightskyblue;
+    width: 700px;
+}
+
+.nav{
+  position: absolute; /* Or fixed if you want it to stay during scrolling */
+  left: 50%; /* Positioning from the left edge of the screen */
+  transform: translateX(-50%); /* Center it by shifting left half of its width */
+  width: 1000px; /* Set the desired width */
+  background-color: #ccbbbb; /* Example background color */
+  color: white; /* Example text color */
+  padding: 10px; /* Optional: Add some padding */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for styling */
+}
